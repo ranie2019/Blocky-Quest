@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d0923509e1130d34eadd846a631df672
+timeCreated: 1517156718
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 110307
+  packageName: Church Model
+  packageVersion: 1.0
+  assetPath: Assets/Church/Objects/Materials/WatchGruped.mat
+  uploadId: 226879
