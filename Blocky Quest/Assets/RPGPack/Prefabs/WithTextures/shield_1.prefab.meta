@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 89183a95fff8dc848926603cb82e9038
+timeCreated: 1499778261
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95184
+  packageName: Low Poly Weapons RPG Items
+  packageVersion: 1.0
+  assetPath: Assets/RPGPack/Prefabs/WithTextures/shield_1.prefab
+  uploadId: 193805

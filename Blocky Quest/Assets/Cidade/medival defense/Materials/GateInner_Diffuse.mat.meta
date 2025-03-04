@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c0019be3d5899c348b21893ecaca6098
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27667
+  packageName: 'Medieval Defense [Low-Poly , All maps]'
+  packageVersion: 1.0
+  assetPath: Assets/Low-Poly medival defense/Materials/GateInner_Diffuse.mat
+  uploadId: 46242

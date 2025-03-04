@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 20515f88563ab2f47a21653ebf68db85
+timeCreated: 1499778256
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95184
+  packageName: Low Poly Weapons RPG Items
+  packageVersion: 1.0
+  assetPath: Assets/RPGPack/Prefabs/WithTextures/sword_1.prefab
+  uploadId: 193805

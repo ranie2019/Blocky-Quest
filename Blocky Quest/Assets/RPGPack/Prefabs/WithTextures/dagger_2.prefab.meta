@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e5558e46c99ed544b8e7adca0b3757f6
+timeCreated: 1499778262
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95184
+  packageName: Low Poly Weapons RPG Items
+  packageVersion: 1.0
+  assetPath: Assets/RPGPack/Prefabs/WithTextures/dagger_2.prefab
+  uploadId: 193805

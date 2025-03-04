@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 60c46117da109c4419a7a7e9a92593c4
+timeCreated: 1499778268
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 95184
+  packageName: Low Poly Weapons RPG Items
+  packageVersion: 1.0
+  assetPath: Assets/RPGPack/Prefabs/WithTextures/axe_2.prefab
+  uploadId: 193805
