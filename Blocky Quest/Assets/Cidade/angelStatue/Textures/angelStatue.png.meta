@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: b1113e1c30577e6488aeee84842a01ff
+AssetOrigin:
+  serializedVersion: 1
+  productId: 27594
+  packageName: Angel statue
+  packageVersion: 1.0
+  assetPath: Assets/angelStatue/Textures/angelStatue.png
+  uploadId: 46157
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,14 +115,14 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 10
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 0
+    overridden: 1
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
@@ -141,10 +148,3 @@ TextureImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 27594
-  packageName: Angel statue
-  packageVersion: 1.0
-  assetPath: Assets/angelStatue/Textures/angelStatue.png
-  uploadId: 46157
