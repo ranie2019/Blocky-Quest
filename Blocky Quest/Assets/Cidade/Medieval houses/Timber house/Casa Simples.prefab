@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Casa Simples
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
       propertyPath: m_LocalScale.x
       value: 275.61
@@ -26,7 +30,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 740.6
+      value: 649.31714
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
       propertyPath: m_LocalPosition.y
@@ -34,23 +38,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 565.4
+      value: 586.6922
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.6875305
+      value: 0.1742187
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.6875305
+      value: -0.17421874
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.16523273
+      value: -0.6853087
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.16523273
+      value: -0.6853085
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -62,7 +66,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 27.027
+      value: -151.473
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -71,5 +75,34 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7584758310462551659}
   m_SourcePrefab: {fileID: 100100000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
+--- !u!1 &5802723289541600527 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 304620c2a96ce1043bc12531ed0125d2, type: 3}
+  m_PrefabInstance: {fileID: 5802723289541567407}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7584758310462551659
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5802723289541600527}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.03358047, y: 0.052196465, z: 0.03498916}
+  m_Center: {x: 0.00003253207, y: -0.0000009300815, z: 0.017494636}

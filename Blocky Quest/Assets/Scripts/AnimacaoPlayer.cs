@@ -31,30 +31,30 @@ public class AnimacaoPlayer : MonoBehaviour
         bool estaAndando = vertical != 0;
         animator.SetBool("Andando", estaAndando);
 
-        // Animação de ataque (Trigger)
+        // Animação de ataque (bool)
         if (Input.GetMouseButtonDown(0) && !atacando)
         {
             atacando = true;
-            animator.SetTrigger("Ataque");
+            animator.SetBool("Ataque", true);
             Invoke(nameof(ResetarAtaque), 0.5f); // Pequeno delay para permitir repetir o ataque
         }
 
-        // Animação de defesa (Trigger)
-        if (Input.GetMouseButtonDown(1) && !defendendo)
+        // Animação de defesa (bool)
+        if (Input.GetMouseButton(1)) // Mantém ativado enquanto o botão estiver pressionado
         {
             defendendo = true;
-            animator.SetTrigger("Defesa");
-            Invoke(nameof(ResetarDefesa), 0.5f); // Pequeno delay para permitir repetir a defesa
         }
+        else
+        {
+            defendendo = false;
+        }
+
+        animator.SetBool("Defesa", defendendo);
     }
 
     void ResetarAtaque()
     {
         atacando = false;
-    }
-
-    void ResetarDefesa()
-    {
-        defendendo = false;
+        animator.SetBool("Ataque", false);
     }
 }
