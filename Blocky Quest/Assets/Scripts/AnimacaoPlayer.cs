@@ -1,10 +1,12 @@
 using UnityEngine;
 
-public class Movimentacao : MonoBehaviour
+public class AnimacaoPlayer : MonoBehaviour
 {
     public float velocidade = 5f; // Velocidade ajustável pelo Inspector
     public float velocidadeRotacao = 100f; // Velocidade de rotação ajustável
     private Animator animator;
+    private bool atacando = false;
+    private bool defendendo = false;
 
     void Start()
     {
@@ -25,8 +27,34 @@ public class Movimentacao : MonoBehaviour
         float rotacao = horizontal * velocidadeRotacao * Time.deltaTime;
         transform.Rotate(0, rotacao, 0);
 
-        // Controla animação
+        // Controla animação de movimento
         bool estaAndando = vertical != 0;
         animator.SetBool("Andando", estaAndando);
+
+        // Animação de ataque (Trigger)
+        if (Input.GetMouseButtonDown(0) && !atacando)
+        {
+            atacando = true;
+            animator.SetTrigger("Ataque");
+            Invoke(nameof(ResetarAtaque), 0.5f); // Pequeno delay para permitir repetir o ataque
+        }
+
+        // Animação de defesa (Trigger)
+        if (Input.GetMouseButtonDown(1) && !defendendo)
+        {
+            defendendo = true;
+            animator.SetTrigger("Defesa");
+            Invoke(nameof(ResetarDefesa), 0.5f); // Pequeno delay para permitir repetir a defesa
+        }
+    }
+
+    void ResetarAtaque()
+    {
+        atacando = false;
+    }
+
+    void ResetarDefesa()
+    {
+        defendendo = false;
     }
 }
