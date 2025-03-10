@@ -16,7 +16,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5541825423884553432
 Transform:
@@ -100,7 +100,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6016999081118784572
 Transform:
@@ -131,13 +131,13 @@ GameObject:
   - component: {fileID: 1183517361707163749}
   - component: {fileID: 1816841435437538955}
   - component: {fileID: 7744506311114522472}
-  - component: {fileID: 3322609733014113816}
+  - component: {fileID: 2717192689401243237}
   m_Layer: 0
   m_Name: Tree_4_Green_Part_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1183517361707163749
 Transform:
@@ -207,8 +207,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &3322609733014113816
-MeshCollider:
+--- !u!136 &2717192689401243237
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -225,10 +225,11 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -6386366341391162756, guid: b0baef4c09db3b24d98cd8bc6bce92f8, type: 3}
+  serializedVersion: 2
+  m_Radius: 0.34
+  m_Height: 2.339079
+  m_Direction: 1
+  m_Center: {x: 0.064566374, y: 1.1695395, z: 0.011571392}
 --- !u!1 &8499597642681500752
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,13 +241,12 @@ GameObject:
   - component: {fileID: 5663180960929921262}
   - component: {fileID: 3129950525398277595}
   - component: {fileID: 3107281329679047537}
-  - component: {fileID: 1289504143527118929}
   m_Layer: 0
   m_Name: Tree_4_Green_Part_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5663180960929921262
 Transform:
@@ -316,25 +316,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1289504143527118929
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8499597642681500752}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5764573228611022855, guid: b0baef4c09db3b24d98cd8bc6bce92f8, type: 3}

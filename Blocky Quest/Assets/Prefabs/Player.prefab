@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1679939868939738303}
   m_Layer: 0
   m_Name: Braco E
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 7459066377821381140}
   m_Layer: 0
   m_Name: Ombro D
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 943091197817106851}
   m_Layer: 0
   m_Name: Cocha E
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -165,7 +165,7 @@ GameObject:
   - component: {fileID: 8630627163167687193}
   m_Layer: 0
   m_Name: Cocha E
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 8264529797929818266}
   m_Layer: 0
   m_Name: Cocha D
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 1471881143629787079}
   m_Layer: 0
   m_Name: Cocha D
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -368,9 +368,10 @@ GameObject:
   - component: {fileID: 4886174047509464451}
   - component: {fileID: 1672051735001286486}
   - component: {fileID: 1498884526985928782}
+  - component: {fileID: 4367333992199687530}
   m_Layer: 0
   m_Name: 'Perna D '
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -443,6 +444,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &4367333992199687530
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3326101756132235736}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000004, y: 1, z: 1.0000004}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3578606467310904676
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,7 +478,7 @@ GameObject:
   - component: {fileID: 1207251218291122211}
   m_Layer: 0
   m_Name: Cabeca
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -542,7 +564,7 @@ GameObject:
   - component: {fileID: 2704497369721765729}
   m_Layer: 0
   m_Name: Ombro E
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -628,7 +650,7 @@ GameObject:
   - component: {fileID: 6701148476100248742}
   m_Layer: 0
   m_Name: Corpo
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -714,7 +736,7 @@ GameObject:
   - component: {fileID: 7740164631895913301}
   m_Layer: 0
   m_Name: Braco D
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -798,7 +820,7 @@ GameObject:
   - component: {fileID: 8689443140582563874}
   m_Layer: 0
   m_Name: Ombro E
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -831,7 +853,7 @@ GameObject:
   - component: {fileID: 2265173548577945091}
   m_Layer: 0
   m_Name: 'Perna D '
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -863,7 +885,7 @@ GameObject:
   - component: {fileID: 1580817723854633332}
   m_Layer: 0
   m_Name: Ombro D
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -896,7 +918,7 @@ GameObject:
   - component: {fileID: 3134849966120936174}
   m_Layer: 0
   m_Name: Braco D
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -929,7 +951,7 @@ GameObject:
   - component: {fileID: 1432752172821662275}
   m_Layer: 0
   m_Name: 'Perna E '
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -959,13 +981,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5875395862766933366}
-  - component: {fileID: 7832635764332903550}
-  - component: {fileID: 1822470543865638775}
+  - component: {fileID: 1166778183888566258}
   - component: {fileID: 5907875047207465618}
   - component: {fileID: 3466625567191781671}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -978,7 +999,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7232638899730246449}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 618, y: 3.55, z: 647.7}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
@@ -991,28 +1012,7 @@ Transform:
   - {fileID: 943091197817106851}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &7832635764332903550
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7232638899730246449}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4.56139, y: 7.0490103, z: 1}
-  m_Center: {x: 0.026381135, y: -3.0245051, z: 0}
---- !u!54 &1822470543865638775
+--- !u!54 &1166778183888566258
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1038,7 +1038,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 1
+  m_CollisionDetection: 0
 --- !u!114 &5907875047207465618
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1086,6 +1086,7 @@ GameObject:
   - component: {fileID: 5826874375351178519}
   - component: {fileID: 6692774955867240490}
   - component: {fileID: 8630666520656207931}
+  - component: {fileID: 6951483585178244677}
   m_Layer: 0
   m_Name: 'Perna E '
   m_TagString: Untagged
@@ -1161,6 +1162,27 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &6951483585178244677
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8016369620849034081}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0000002, y: 1, z: 1.0000002}
+  m_Center: {x: 0, y: 0, z: -0.00012207031}
 --- !u!1 &8701491786240148532
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,7 +1196,7 @@ GameObject:
   - component: {fileID: 8427112282544202674}
   m_Layer: 0
   m_Name: Braco E
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1311,16 +1333,104 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword_1_Black
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 8918015505554605893, guid: 1b38a4d6377be3d46a66411bf33c9fac, type: 3}
+      propertyPath: m_TagString
+      value: Arma
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2157694272145182431, guid: 1b38a4d6377be3d46a66411bf33c9fac, type: 3}
+    - {fileID: 3592940217316142429, guid: 1b38a4d6377be3d46a66411bf33c9fac, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8918015505554605893, guid: 1b38a4d6377be3d46a66411bf33c9fac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3353307929060741624}
+    - targetCorrespondingSourceObject: {fileID: 6730980459661323317, guid: 1b38a4d6377be3d46a66411bf33c9fac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3566430556474020534}
+    - targetCorrespondingSourceObject: {fileID: 4952983636380351833, guid: 1b38a4d6377be3d46a66411bf33c9fac, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7379335068774777409}
   m_SourcePrefab: {fileID: 100100000, guid: 1b38a4d6377be3d46a66411bf33c9fac, type: 3}
+--- !u!1 &4784373315397475991 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4952983636380351833, guid: 1b38a4d6377be3d46a66411bf33c9fac, type: 3}
+  m_PrefabInstance: {fileID: 493436966744499150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7379335068774777409
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4784373315397475991}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.25611016, y: 0.26468056, z: 0.043226246}
+  m_Center: {x: 6.503741e-15, y: 0.4576602, z: -0.00000011920929}
+--- !u!1 &6606839332436135931 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6730980459661323317, guid: 1b38a4d6377be3d46a66411bf33c9fac, type: 3}
+  m_PrefabInstance: {fileID: 493436966744499150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &3566430556474020534
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6606839332436135931}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.16
+  m_Height: 1.41
+  m_Direction: 1
+  m_Center: {x: -1.6588952e-15, y: -0.34, z: -0.00000011920929}
 --- !u!4 &8525873987847749169 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8109003218961456639, guid: 1b38a4d6377be3d46a66411bf33c9fac, type: 3}
   m_PrefabInstance: {fileID: 493436966744499150}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9014567721435145355 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8918015505554605893, guid: 1b38a4d6377be3d46a66411bf33c9fac, type: 3}
+  m_PrefabInstance: {fileID: 493436966744499150}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3353307929060741624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9014567721435145355}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2699fe187f12e9646814048b125bf136, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dano: 1
+  durabilidade: 100
 --- !u!1001 &581285030194931623
 PrefabInstance:
   m_ObjectHideFlags: 0

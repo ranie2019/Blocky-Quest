@@ -89,9 +89,9 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.5
-        value: {x: 0, y: -3.234, z: -14.539}
-        inSlope: {x: 0, y: 38.808025, z: 165.477}
-        outSlope: {x: 0, y: 38.808025, z: 165.477}
+        value: {x: 0, y: -3.234, z: -5.291}
+        inSlope: {x: 0, y: 38.808025, z: 63.492016}
+        outSlope: {x: 0, y: 38.808025, z: 63.492016}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -141,7 +141,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.5
-        value: {x: -163.123, y: 90, z: 180}
+        value: {x: -176.978, y: 90, z: 180}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -237,9 +237,9 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.5
-        value: {x: -0.14, y: -1.32, z: 0.01}
-        inSlope: {x: 1.6799998, y: 0.4607041, z: 0}
-        outSlope: {x: 1.6799998, y: 0.4607041, z: 0}
+        value: {x: -0.05, y: -1.27, z: 0.02}
+        inSlope: {x: 0.6000001, y: 0.4028163, z: 0}
+        outSlope: {x: 0.6000001, y: 0.4028163, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
@@ -289,7 +289,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 0.5
-        value: {x: -0.706, y: -2.75, z: -0.12}
+        value: {x: -0.1, y: -2.93, z: -0.12}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -761,9 +761,9 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: -0.14
-        inSlope: 1.6799998
-        outSlope: 1.6799998
+        value: -0.05
+        inSlope: 0.6000001
+        outSlope: 0.6000001
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -809,9 +809,9 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: -1.32
-        inSlope: 0.4607041
-        outSlope: 0.4607041
+        value: -1.27
+        inSlope: 0.4028163
+        outSlope: 0.4028163
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -857,7 +857,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: 0.01
+        value: 0.02
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1001,9 +1001,9 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: -14.539
-        inSlope: 165.477
-        outSlope: 165.477
+        value: -5.291
+        inSlope: 63.492016
+        outSlope: 63.492016
         tangentMode: 136
         weightedMode: 0
         inWeight: 0.33333334
@@ -1058,7 +1058,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: -0.706
+        value: -0.1
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1115,7 +1115,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: -2.75
+        value: -2.93
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1229,7 +1229,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 0.5
-        value: -163.123
+        value: -176.978
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -1376,7 +1376,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Ombro D/Braco D
+    path: Ombro D/Braco D/Sword_1_Black
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1388,7 +1388,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Ombro D/Braco D
+    path: Ombro D/Braco D/Sword_1_Black
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1400,7 +1400,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Ombro D/Braco D
+    path: Ombro D/Braco D/Sword_1_Black
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1448,7 +1448,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Ombro D/Braco D/Sword_1_Black
+    path: Ombro D/Braco D
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1460,7 +1460,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Ombro D/Braco D/Sword_1_Black
+    path: Ombro D/Braco D
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -1472,7 +1472,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Ombro D/Braco D/Sword_1_Black
+    path: Ombro D/Braco D
     classID: 4
     script: {fileID: 0}
     flags: 0

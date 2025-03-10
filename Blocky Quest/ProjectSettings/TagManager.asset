@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - CamTrigger
+  - Ponto
+  - Inimigo
+  - Arma
   layers:
   - Default
   - TransparentFX
@@ -12,8 +15,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - hitLayer
+  - Inimigo
   - 
   - 
   - 
